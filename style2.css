@@ -1,0 +1,114 @@
+#information {
+  min-width: 1000px;
+  margin-top: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+#information .sidebar ul li a {
+  display: block;
+}
+
+#information .sidebar ul li h4 {
+  font-family: "Arapey", serif;
+  color: #999;
+  font-size: 1.4rem;
+  font-weight: lighter;
+  letter-spacing: 0.1rem;
+  margin-bottom: 30px;
+  text-align: center;
+  margin-left: 40px;
+}
+
+#information .sidebar ul li:nth-of-type(n+2) {
+  border-bottom: dotted 1px #999;
+  padding-bottom: 20px;
+  padding-top: 10px;
+  list-style: none;
+  margin-left: 40px;
+  text-align: left;
+  width: 150px;
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+#information .sidebar ul li:hover {
+  background: #999;
+  opacity: 0.3;
+  -webkit-transition-duration: .3s;
+          transition-duration: .3s;
+}
+
+#information #info_inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 80px;
+  margin-right: 300px;
+  margin-left: 100px;
+}
+
+#information #info_inner .info_set_in {
+  padding-bottom: 20px;
+}
+
+#information #info_inner .info_set_in time {
+  font-size: 1.25rem;
+}
+
+#information #info_inner .info_set_in span {
+  font-size: 0.9rem;
+}
+
+#information #info_inner h3 {
+  font-size: 1.5rem;
+}
+
+#information #info_inner p {
+  line-height: 2;
+  font-size: 1.3rem;
+}
+
+#information #news {
+  margin-top: -90px;
+}
+
+#information #news .news_items {
+  border: none;
+}
+
+@media screen and (max-width: 750px) {
+  #information {
+    min-width: 750px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+    margin-left: -100px;
+  }
+  #information .sidebar {
+    margin-left: 100px;
+  }
+  #information .sidebar ul li h4 {
+    text-align: left;
+    margin-left: 65px;
+  }
+  #information #news #info_inner {
+    margin-right: 300px;
+  }
+}
+/*# sourceMappingURL=style2.css.map */
